@@ -1,7 +1,5 @@
 //define functions here
 
-$(document).ready(function(){
-
 function getIt() {
   $('p').on('click', function() {
     alert('Hey');
@@ -12,6 +10,14 @@ function getIt() {
 function frameIt() {
   
 }
+
+
+
+$(document).ready(function(){
+
+getIt();
+frameIt();
+
 
 
 
