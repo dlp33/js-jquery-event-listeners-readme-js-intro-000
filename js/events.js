@@ -18,9 +18,15 @@ function pressIt() {
     if(e.which === 71) {
       alert('You pressed G!');
     }
-  })
+  });
 }
 
+
+function submitIt() {
+  $('input:last').on('submit', function() {
+    alert("Your form is going to be submitted now.");
+  });
+}
 
 
 $(document).ready(function(){
